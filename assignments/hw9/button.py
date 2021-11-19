@@ -38,8 +38,8 @@ class Button:
         button_p1 = self.shape.getP1()
         button_p2 = self.shape.getP2()
         button_x1 = button_p1.getX()
-        button_y1 = button_p1.getX()
-        button_x2 = button_p2.getY()
+        button_y1 = button_p1.getY()
+        button_x2 = button_p2.getX()
         button_y2 = button_p2.getY()
         return bool(button_x1 <= point_x <= button_x2 and button_y1 <= point_y <= button_y2)
 
